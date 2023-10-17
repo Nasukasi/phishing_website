@@ -149,11 +149,12 @@ div{
 }
 .newlogindialog_Checkbox{
 
-  height: 14px;
-  padding: 3px;
-  border-radius: 2px;
-  background-color: #32353c;
-  cursor: pointer;
+  width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #32353c;
+    cursor: pointer;
 }
 .newlogindialog_Check{
   width: 100%;
@@ -194,6 +195,10 @@ div{
     text-align: center;
     cursor: pointer;
 }
+.newlogindialog_SubmitButton a{
+text-decoration: none;
+color: #fff;
+}
 .newlogindialog_Login .newlogindialog_SignInButtonContainer button{
   width: 270px;
 }
@@ -202,6 +207,7 @@ div{
     font-size: 12px;
     font-weight: 500;
     text-align: center;
+    margin-top: 10px;
 }
 .newlogindialog_TextLink{
   color: #afafaf;
@@ -267,7 +273,7 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .login_bottom_row_item{
   flex: 1;
@@ -308,5 +314,126 @@ div{
   margin-top: 10px;
   color: #b8b6b4;
   text-decoration: underline;
+}
+#footer_space{
+  height: 290px;
+  background-color: #181A21;
+}
+#footer{
+  background-color: #181A21;
+  font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px 0 60px 0;
+    margin: 0;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    background: #171a21;
+}
+.footer_content{
+  width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+.rule{
+  height: 8px;
+  border-top: 1px solid #363c44;
+}
+.footer_logo_steam{
+  float: right;
+  padding-top: 2px;
+}
+.container{
+  position: relative;
+}
+.footer_logo{
+  float: left;
+  padding-top: 2px;
+}
+.footer_logo img{
+  width: 88px;
+  height: 25px;
+}
+#footer_text{
+  float: left;
+  margin-left: 12px;
+  color: #8F98A0;
+  font-size: 12px;
+  line-height: 16px;
+}
+#footer_text a{
+  color: #C6D4DF;
+}
+.value_links{
+  margin-top: 8px;
+  float: left;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #61686D;
+}
+.value_links a{
+  color: #C6D4DF;
+  text-decoration: none;
+}
+.value_links img{
+  vertical-align: bottom;
+}
+#global_actions{
+  position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    z-index: 401;
+}
+#global_action_menu{
+  line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+#global_action_menu > *{
+  vertical-align: top;
+}
+.header_installsteam_btn{
+  display: inline-block;
+  position: relative;
+  height: 21px;
+  line-height: 24px;
+  margin-right: 3px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.header_installsteam_btn_greeen{
+  background-color: #5c7e10;
+}
+.header_installsteam_btn_content{
+  display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+}
+a.global_action_link{
+  color: #b8b6b4;
+  padding: 0 4px;
+}
+.pulldown{
+  padding-left: 5px;
+    padding-right: 18px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
