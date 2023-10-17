@@ -51,9 +51,10 @@ div.text2{
     
 }
 .btn{
+    border: 2px red solid;
     margin-top: 450px;
     float: right;
-    display: flex;
+    display: flexbox;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: bold;
